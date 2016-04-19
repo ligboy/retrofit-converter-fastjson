@@ -39,6 +39,8 @@
         <mockito.version>1.9.5</mockito.version>
         <guava.version>19.0</guava.version>
         <robolectric.version>3.0</robolectric.version>
+
+        <bintray.package>${project.groupId}</bintray.package>
     </properties>
 
 
@@ -209,4 +211,11 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>bintray-ligboy-maven</id>
+            <name>Ligboy-maven</name>
+            <url>https://api.bintray.com/maven/ligboy/maven/${bintray.package}/;publish=1</url>
+        </repository>
+    </distributionManagement>
 </project>
