@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.ligboy.retrofit2</groupId>
-    <artifactId>retrofit-converters</artifactId>
+    <artifactId>converter-fastjson-parent</artifactId>
     <name>Converters</name>
     <packaging>pom</packaging>
     <version>2.0.2</version>
@@ -17,7 +17,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.sourceEncoding>UTF-8</project.reporting.sourceEncoding>
-        <maven.deploy.skip>true</maven.deploy.skip>
+        <maven.deploy.skip>false</maven.deploy.skip>
         <!-- Compilation -->
         <java.version>1.7</java.version>
 
@@ -40,7 +40,7 @@
         <guava.version>19.0</guava.version>
         <robolectric.version>3.0</robolectric.version>
 
-        <bintray.package></bintray.package>
+        <bintray.package>retrofit-converter-fastjson-parent</bintray.package>
     </properties>
 
     <developers>
