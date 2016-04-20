@@ -6,7 +6,7 @@ deploy:
   api_key:
     secure: VDo3ZrUzsfV656iceKI6LfWd22SLK1vMcHgZC6kXOOGoQq6EGgd0n9GqViYPiuY3MCrQKGBA2ClSAhjDkL/oq83oqsDKq9xQPEt+V+OccmqTADcTYiU1l+o09ExTFPTBRnzE2Kd+I487k+xtUG0VoyUeZtffi1Bnpi8apN89MGG6wFpNEwqgq37ozwn3YEnrNeiD+ScJoi2jIftzQiVAPg4JYgWNS5Ho04p172K8+J0/r2cfCJwgu8NqixPcz8X07kyTJoim315HQLeW3Bv1KdwypA1YP+CTIIRS+LTIAO2MJ0dvbQnljwLyyuQmIygqksN/HDCd1PlcxiwAG8sZwd3I3okKSAhlvXJwR1we7G93+VVdjDgAsLApVTguEIq6VkGhEJyM2KrDtpDnkUTXk1FRbfwVYTcPqR7h/50CvNx82aIFAvpTZjf0F3zNbIVsjp0X8HyCC9JJ0XgMgzsj8tA7x2TG6MUxBo5EAOpxUbVTPqyH8L2dE0/vC7ZDy4ynikA0UGlAJ2RuNqvkLMG+QGFor/2qnul56oZPhd3rtzlSgT+7aULPTnJBHpUwHYtIznQO7htcE7GBxz7J0pX7UYfVRgOor2isFgIPa82kHzzi46EQTUuSoUy6MdZkkoOygCe2YJJNE1I9WriInc/pTTlT6GItPJ9vVnIgv0StbAQ=
   file_glob: true
-  file: "fastjson/target/converter-fastjson*-*.jar"
+  file: "fastjson*/target/converter-fastjson*-*.jar"
   skip_cleanup: true
   on:
     tags: true
