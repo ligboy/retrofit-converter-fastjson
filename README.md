@@ -36,9 +36,7 @@ compile 'org.ligboy.retrofit2:converter-fastjson:2.0.2'
 compile 'org.ligboy.retrofit2:converter-fastjson-android:2.0.2'
 ```
 
-Snapshots of the development version are available in [Sonatype's `snapshots` repository][snap].
-
-Retrofit requires at minimum Java 7 or Android 2.3.
+FastJson Retrofit Converter requires at minimum Java 7 or Android 2.3.
 To use, supply an instance of your desired converter when building your `Retrofit` instance.
 
 ```java
