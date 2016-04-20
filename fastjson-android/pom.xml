@@ -9,8 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>fastjson-android</artifactId>
+    <artifactId>converter-fastjson-android</artifactId>
     <name>Converter: FastJson-Android</name>
+
+    <properties>
+        <bintray.package>retrofit-converter-fastjson-android</bintray.package>
+        <maven.deploy.skip>false</maven.deploy.skip>
+    </properties>
 
     <dependencies>
         <dependency>

@@ -17,7 +17,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.sourceEncoding>UTF-8</project.reporting.sourceEncoding>
-
+        <maven.deploy.skip>true</maven.deploy.skip>
         <!-- Compilation -->
         <java.version>1.7</java.version>
 
@@ -40,9 +40,17 @@
         <guava.version>19.0</guava.version>
         <robolectric.version>3.0</robolectric.version>
 
-        <bintray.package>${project.groupId}</bintray.package>
+        <bintray.package></bintray.package>
     </properties>
 
+    <developers>
+        <developer>
+            <id>ligboy</id>
+            <name>Ligboy Liu</name>
+            <email>ligboy@gmail.com</email>
+            <url>https://ligboy.org</url>
+        </developer>
+    </developers>
 
     <scm>
         <url>http://github.com/ligboy/retrofit-converters</url>

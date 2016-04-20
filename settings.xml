@@ -5,7 +5,7 @@
         <server>
             <id>bintray-ligboy-maven</id>
             <username>ligboy</username>
-            <password>${env.BINTRAY_PASSWORD_LIGBOY}</password>
+            <password>${env.BINTRAY_API_KEY_LIGBOY}</password>
         </server>
     </servers>
     <profiles>

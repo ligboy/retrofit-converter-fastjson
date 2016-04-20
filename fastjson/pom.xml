@@ -12,6 +12,11 @@
     <artifactId>converter-fastjson</artifactId>
     <name>Converter: FastJson</name>
 
+    <properties>
+        <bintray.package>retrofit-converter-fastjson</bintray.package>
+        <maven.deploy.skip>false</maven.deploy.skip>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.squareup.retrofit2</groupId>
