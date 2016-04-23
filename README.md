@@ -11,7 +11,22 @@ For more information please see [the website][1].
 Download
 --------
 
-Download the latest JAR: [converter-fastjson][2] [converter-fastjson-android][3] or grab via Maven:
+Download the latest JAR: [converter-fastjson][2] [converter-fastjson-android][3] or grab via Maven:  
+
+repository:
+```xml
+<repositories>
+  <repository>
+    <snapshots>
+      <enabled>false</enabled>
+    </snapshots>
+    <id>bintray-ligboy-maven</id>
+    <name>bintray</name>
+    <url>http://dl.bintray.com/ligboy/maven</url>
+  </repository>
+</repositories>
+```
+dependency:
 ```xml
 <dependency>
   <groupId>org.ligboy.retrofit2</groupId>
@@ -27,7 +42,16 @@ Download the latest JAR: [converter-fastjson][2] [converter-fastjson-android][3]
   <version>2.0.2</version>
 </dependency>
 ```
-or Gradle:
+or Gradle:  
+repository:  
+```groovy
+repositories {
+    maven {
+        url  "http://dl.bintray.com/ligboy/maven" 
+    }
+}
+```
+dependency:
 ```groovy
 compile 'org.ligboy.retrofit2:converter-fastjson:2.0.2'
 ```
