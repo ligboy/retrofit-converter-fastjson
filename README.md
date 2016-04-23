@@ -11,9 +11,9 @@ For more information please see [the website][1].
 Download
 --------
 
-Download the latest JAR: [converter-fastjson][2] [converter-fastjson-android][3] or grab via Maven:  
-
-repository:
+Download the latest JAR: [converter-fastjson][2] [converter-fastjson-android][3].  
+### Via Maven:
+#### repository:
 ```xml
 <repositories>
   <repository>
@@ -26,7 +26,7 @@ repository:
   </repository>
 </repositories>
 ```
-dependency:
+#### dependency:
 ```xml
 <dependency>
   <groupId>org.ligboy.retrofit2</groupId>
@@ -42,8 +42,8 @@ dependency:
   <version>2.0.2</version>
 </dependency>
 ```
-or Gradle:  
-repository:  
+### or Gradle:  
+#### repository:  
 ```groovy
 repositories {
     maven {
@@ -51,7 +51,7 @@ repositories {
     }
 }
 ```
-dependency:
+#### dependency:
 ```groovy
 compile 'org.ligboy.retrofit2:converter-fastjson:2.0.2'
 ```
@@ -59,7 +59,8 @@ compile 'org.ligboy.retrofit2:converter-fastjson:2.0.2'
 ```groovy
 compile 'org.ligboy.retrofit2:converter-fastjson-android:2.0.2'
 ```
-
+Usage
+-------
 FastJson Retrofit Converter requires at minimum Java 7 or Android 2.3.
 To use, supply an instance of your desired converter when building your `Retrofit` instance.
 
