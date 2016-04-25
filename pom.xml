@@ -13,6 +13,7 @@
         <module>fastjson</module>
         <module>fastjson-android</module>
     </modules>
+    <description>Retrofit ships with support for OkHttp's RequestBody and ResponseBody types but the library is content-format agnostic. This modules contained herein are additional converters for JSON which uses FastJson. </description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
