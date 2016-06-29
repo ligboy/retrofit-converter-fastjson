@@ -13,7 +13,6 @@
     <name>Converter: FastJson-Android</name>
 
     <properties>
-        <bintray.package>retrofit-converter-fastjson</bintray.package>
         <maven.deploy.skip>false</maven.deploy.skip>
     </properties>
 
