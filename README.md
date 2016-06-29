@@ -18,7 +18,7 @@ Download the latest JAR: [converter-fastjson][2] [converter-fastjson-android][3]
 <dependency>
   <groupId>org.ligboy.retrofit2</groupId>
   <artifactId>converter-fastjson</artifactId>
-  <version>2.0.2</version>
+  <version>2.1.0</version>
 </dependency>
 ```
  *For fastjson-android:*
@@ -26,17 +26,17 @@ Download the latest JAR: [converter-fastjson][2] [converter-fastjson-android][3]
 <dependency>
   <groupId>org.ligboy.retrofit2</groupId>
   <artifactId>converter-fastjson-android</artifactId>
-  <version>2.0.2</version>
+  <version>2.1.0</version>
 </dependency>
 ```
 ### or Gradle:
 #### dependency:
 ```groovy
-compile 'org.ligboy.retrofit2:converter-fastjson:2.0.2'
+compile 'org.ligboy.retrofit2:converter-fastjson:2.1.0'
 ```
  *For fastjson-android:*
 ```groovy
-compile 'org.ligboy.retrofit2:converter-fastjson-android:2.0.2'
+compile 'org.ligboy.retrofit2:converter-fastjson-android:2.1.0'
 ```
 Usage
 -------
