@@ -155,7 +155,7 @@
                     </dependencies>
                 </plugin>
             </plugins>
-        </pluginManagement
+        </pluginManagement>
 
         <plugins>
             <plugin>
