@@ -26,7 +26,7 @@
         <animal.sniffer.version>1.14</animal.sniffer.version>
 
         <!-- Converter Dependencies -->
-        <retrofit.version>2.1.0</retrofit.version>
+        <retrofit.version>2.2.0</retrofit.version>
         <fastjson.version>1.2.31</fastjson.version>
         <fastjsonandroid.version>1.1.56.android</fastjsonandroid.version>
 
