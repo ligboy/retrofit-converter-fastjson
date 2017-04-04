@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE module PUBLIC
-    "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
-    "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+        "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
 
 <module name="Checker">
     <module name="NewlineAtEndOfFile">
@@ -46,7 +46,7 @@
         <module name="IllegalImport"/> <!-- defaults to sun.* packages -->
         <module name="RedundantImport"/>
         <module name="UnusedImports">
-          <property name="processJavadoc" value="true"/>
+            <property name="processJavadoc" value="true"/>
         </module>
 
 
@@ -65,7 +65,7 @@
         <module name="EmptyForIteratorPad"/>
         <module name="MethodParamPad"/>
         <module name="NoWhitespaceAfter">
-          <property name="tokens" value="BNOT, DEC, DOT, INC, LNOT, UNARY_MINUS, UNARY_PLUS"/>
+            <property name="tokens" value="BNOT, DEC, DOT, INC, LNOT, UNARY_MINUS, UNARY_PLUS"/>
         </module>
         <module name="NoWhitespaceBefore"/>
         <module name="OperatorWrap"/>
@@ -102,7 +102,6 @@
         <!--module name="InnerAssignment"/-->
         <!--module name="MagicNumber"/-->
         <module name="MissingSwitchDefault"/>
-        <module name="RedundantThrows"/>
         <module name="SimplifyBooleanExpression"/>
         <module name="SimplifyBooleanReturn"/>
 
@@ -122,7 +121,8 @@
         <!--module name="TodoComment"/-->
         <module name="UpperEll"/>
         <module name="Indentation">
-          <property name="basicOffset" value="2"/>
+            <property name="basicOffset" value="2"/>
+            <property name="caseIndent" value="2"/>
         </module>
     </module>
 </module>
