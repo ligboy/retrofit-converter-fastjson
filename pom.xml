@@ -27,7 +27,7 @@
 
         <!-- Converter Dependencies -->
         <retrofit.version>2.2.0</retrofit.version>
-        <fastjson.version>1.2.31</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <fastjsonandroid.version>1.1.56.android</fastjsonandroid.version>
 
         <!-- Sample Dependencies -->
